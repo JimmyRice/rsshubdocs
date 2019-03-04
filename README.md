@@ -21,7 +21,9 @@ sudo npm install
 
 ### 文档目录：
 ./docs/content/about:关于页面
+
 ./docs/content/install:部署页面
+
 ./docs/content/api:指南页面
 
 ## 更新注意事项
