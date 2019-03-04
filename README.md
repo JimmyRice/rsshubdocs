@@ -37,3 +37,6 @@ npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 
 ## Powered By
 Powered By Heroku & RSSHub
+
+## 注意事项
+请勿随意更动项目根目录下的`static.json`文件。
