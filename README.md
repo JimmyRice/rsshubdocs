@@ -15,7 +15,7 @@ git clone https://github.com/JimmyRice/rsshubdocs.git rssdocs
 
 cd rssdocs
 
-sudo npm install
+sudo npm install -g vuepress
 ```
 
 ### 文档目录：
