@@ -16,7 +16,6 @@ git clone https://github.com/JimmyRice/rsshubdocs.git rssdocs
 cd rssdocs
 
 sudo npm install
-
 ```
 
 ### 文档目录：
@@ -28,7 +27,13 @@ sudo npm install
 
 ## 更新注意事项
 
-请在写入新内容前先使用`git pull`获取最新版本，写入完成后再通过`git push`提交。
+请在写入新内容前先使用`git pull`获取最新版本，写入完成后先生成静态文件再通过`git push`提交。
+
+## VuePress命令
+
+npm run docs:dev 在本地预览，地址:`localhost:8080`
+
+npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 
 ## Powered By
 Powered By Heroku & RSSHub
