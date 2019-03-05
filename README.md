@@ -1,4 +1,5 @@
 # RSSHub Docs
+
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_shield)
 
 
@@ -27,22 +28,19 @@ sudo npm install -g vuepress
 
 ./docs/content/api:指南页面
 
-## 更新注意事项
-
-请在写入新内容前先使用`git pull`获取最新版本，写入完成后先生成静态文件再通过`git push`提交。
-
-## VuePress命令
+### VuePress命令
 
 npm run docs:dev 在本地预览，地址:`localhost:8080`
 
 npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 
-## Powered By
-Powered By Heroku & RSSHub
-
 ## 注意事项
 请勿随意更动项目根目录下的`static.json`文件。
 
+## 更新注意事项
+请在写入新的内容前先使用`git pull`获取最新版本，修改完后通过`npm run docs:build`生成静态文件后再使用`git push`。
 
-## License
+## 其他
+
+### License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_large)
