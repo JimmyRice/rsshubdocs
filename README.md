@@ -1,4 +1,6 @@
 # RSSHub Docs
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_shield)
+
 
 ## 为什么
 
@@ -40,3 +42,7 @@ Powered By Heroku & RSSHub
 
 ## 注意事项
 请勿随意更动项目根目录下的`static.json`文件。
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_large)
