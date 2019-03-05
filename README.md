@@ -38,7 +38,7 @@ npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 请勿随意更动项目根目录下的`static.json`文件。
 
 ## 更新注意事项
-请在写入新的内容前先使用`git status`查看是否有新版本，如果有请用`git pull`获取最新版本，修改完后通过`npm run docs:build`生成静态文件后再使用`git push`。
+请在写入新的内容前先使用`git pull`获取最新版本，修改完后通过`npm run docs:build`生成静态文件后再使用`git push`。
 
 ## 其他
 
