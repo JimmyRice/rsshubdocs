@@ -600,12 +600,113 @@ filterout可以过滤掉不想要的内容
 
 路由:`/zhihu/pin/daily`
 
+### 豆瓣
+
+#### 正在上映的电影
+
+路由:`/douban/movie/playing`
+
+#### 正在上映的高分电影
+
+路由:`/douban/movie/playing/:score/:city`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|score|是|大于x分的电影|
+|city|否，可选的|城市中文名，默认北京|
+
+#### 即将上映的电影
+
+路由:`/douban/movie/later`
+
+#### 北美票房榜
+
+路由:`/douban/movie/ustop`
+
+#### 豆瓣小组
+
+路由:`/douban/group/:groupid`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|groupid|是|豆瓣小组ID|
+
+#### 浏览发现
+
+路由:`/douban/explore`
+
+#### 浏览发现分栏目
+
+路由:`/douban/explore_column/:id`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|id|是|分栏目ID|
+
+#### 新书速递
+
+路由:`douban/book/latest`
+
+#### 最新增加的音乐
+
+路由:`/douban/music/latest/:area`
+
+| 参数 | 必要性 | 描述 | 分类 |
+|------|------|------|------|
+|area|否，可选的|区域类型|chinese 华语区, western 欧美区, japankorean 日韩区|
+
+#### 热门同城活动
+
+路由:`/douban/event/hot/:locationId`
+
+| 参数 | 必要性 | 描述 | 获取方式 |
+|------|------|------|------|
+|locationId|是|位置ID|通过浏览器Console输入 `window.__loc_id__` 获取|
+
+#### 商务印书馆新书速递
+
+路由:`/douban/commercialpress/latest`
+
+#### 豆瓣书店
+
+路由:`/douban/bookstore`
+
+#### 热门图书排行
+
+路由:`/douban/book/rank/:type`
+
+| 参数 | 必要性 | 描述 | 分类 |
+|------|------|------|------|
+|type|是|图书类型|fiction 虚构, nonfiction 非虚构|
+
+#### 豆列
+
+路由:`douban/doulist/:id`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|id|是|豆列ID|
+
+#### 用户广播
+
+路由:`douban/people/:userid/status`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|userid|是|整数型用户ID|
+
+:::warning 提示
+目前只支持整数型 id, 字母型的 id，可以通过头像图片链接来找到其整数型 id.
+
+例如用户ID为: `MovieL` 他的头像链接为: `https://img1.doubanio.com/icon/ul1128221-98.jpg`
+
+他的整数ID为: `1128221`
+:::
+
 ## 更新列表
 :::danger 持续更新开启
 
 文档较长，目前已预定更新：
-
-豆瓣
 
 Instagram
 
@@ -620,6 +721,9 @@ V2EX
 AcFun
 
 起点中文网
+
+如果有其他想要添加进来的网站可以通过Issue提出
+
 
 更详细的文档内容请前往官方文档
 :::
