@@ -399,7 +399,7 @@ filterout可以过滤掉不想要的内容
 
 #### 新浪博主 (方案2)
 
-路由:'/weibo/user2/:uid'
+路由:`/weibo/user2/:uid`
 
 | 参数 | 必要性 | 描述 |
 |------|------|------|
@@ -713,14 +713,79 @@ filterout可以过滤掉不想要的内容
 |------|------|------|
 |id|是|用户ID|
 
+### 掘金
+
+#### 分类
+
+路由:`/juejin/category/:category`
+
+| 参数 | 必要性 | 描述 | 分类 |
+|------|------|------|------|
+|category|是|分类名|frontend 前端, android Android, ios iOS, backend 后端, design 设计, product 产品, freebie 工具资源, article 阅读, ai 人工智能|
+
+#### 标签
+
+路由:`/juejin/tag/:tag`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|tag|是|标签名|
+
+#### 热门
+
+路由:`/juejin/trending/:category/:type`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|category|是|分类名|
+|type|是|类型|
+
+| Category | 对应分类 |
+|------|------|
+|android|Android|
+|frontend|前端|
+|ios|iOS|
+|backend|后端|
+|design|设计|
+|product|产品|
+|freebie|工具资源|
+|article|阅读|
+|ai|人工智能|
+|devops|运维|
+|all|全部|
+
+| Type | 对应类型|
+|------|------|
+|weekly|本周最热|
+|monthly|本月最热|
+|historical|历史最热|
+
+#### 小册
+
+路由:`/juejin/books`
+
+:::warning 注意
+掘金小册需要付费订阅，RSS仅作为更新提醒，不会包含付费内容
+:::
+
+#### 沸点
+
+路由:`/juejin/pins`
+
+#### 专栏
+
+路由:`/juejin/posts/:id`
+
+| 参数 | 必要性 | 描述 |
+|------|------|------|
+|id|是|用户ID|
+
 ## 更新列表
 :::danger 持续更新开启
 
 文档较长，目前已预定更新：
 
 Instagram
-
-掘金
 
 V2EX
 
