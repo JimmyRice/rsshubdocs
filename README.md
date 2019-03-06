@@ -44,3 +44,8 @@ npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 
 ### License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_large)
+
+### RSSHub
+万物皆可RSS
+
+体验地址:[自建](https://rsshub.free.cngrok.com/) / [官方](https://rsshub.app/)
