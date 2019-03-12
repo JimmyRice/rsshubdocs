@@ -50,3 +50,7 @@ npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 万物皆可RSS
 
 体验地址:[自建 (花生壳)](http://jimmy0w0.oicp.io/) / [官方](https://rsshub.app/)
+
+## 感谢
+
+Powered By RSSHub / Heroku / VuePress
