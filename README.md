@@ -39,6 +39,8 @@ npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 
 请在写入新的内容前先使用`git pull`获取最新版本，修改完后通过`npm run docs:build`生成静态文件后再使用`git push`。
 
+请勿使用`git push origin +master` 来进行覆盖
+
 ## 其他
 
 ### License
@@ -47,4 +49,4 @@ npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 ### RSSHub
 万物皆可RSS
 
-体验地址:[自建 (花生壳, 可能会宕机, 可用于体验...)](http://jimmy0w0.oicp.io/) / [官方](https://rsshub.app/)
+体验地址:[自建 (花生壳)](http://jimmy0w0.oicp.io/) / [官方](https://rsshub.app/)
