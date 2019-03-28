@@ -3,6 +3,8 @@
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_shield)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_small)
 
+`2019/3/28`全面替换成yarn
+
 ## 为什么
 
 官方文档太卡，打算建立一个项目用来重构
@@ -18,7 +20,7 @@ git clone https://github.com/JimmyRice/rsshubdocs.git rssdocs
 
 cd rssdocs
 
-sudo npm install -g vuepress
+sudo yarn install
 ```
 
 ### 文档目录：
@@ -30,9 +32,9 @@ sudo npm install -g vuepress
 
 ### VuePress命令
 
-npm run docs:dev 在本地预览，地址:`localhost:8080`
+sudo yarn docs:dev 在本地预览，地址:`localhost:8080`
 
-npm run docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
+sudo yarn docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
 
 ## 注意事项
 请勿随意更动项目根目录下的`static.json`文件。
