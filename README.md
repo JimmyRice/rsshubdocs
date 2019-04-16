@@ -52,4 +52,4 @@ sudo yarn docs:dev 在本地预览，地址:`localhost:8080`
 
 ## 感谢
 
-Powered By RSSHub / Heroku / VuePress
+Powered By RSSHub / Netlify / VuePress
