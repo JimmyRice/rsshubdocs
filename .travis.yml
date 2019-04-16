@@ -1,0 +1,34 @@
+# 程序语言
+language: node_js
+
+# Node version
+node_js: stable
+
+# 监听分支
+branches:
+- master
+
+# tarvis生命周期
+before_install:
+- git config --global user.name "Jimmy0w0"
+- git config --global user.email "jimmy@jimmyowo.club"
+
+# Install yarn
+- curl -o- -L https://yarnpkg.com/install.sh | bash
+- export PATH=$HOME/.yarn/bin:$PATH
+- yarn install
+
+# Install
+install:
+- yarn
+
+script:
+- yarn docs:build
+
+# 成功后
+after_success:
+- cd ./docs/.vuepress/dist
+- git init
+- git add --all
+- git commit -m 'CI Build'
+- git push --quiet --force https://$REPO_TOKEN@github.com/JimmyRice/rsshubdocs master
