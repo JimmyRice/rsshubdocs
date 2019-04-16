@@ -5,6 +5,8 @@
 
 `2019/3/28`全面替换成yarn
 
+`2019/4/16`加入Travis CI，免去手动Build
+
 ## 为什么
 
 官方文档太卡，打算建立一个项目用来重构
@@ -34,12 +36,8 @@ sudo yarn install
 
 sudo yarn docs:dev 在本地预览，地址:`localhost:8080`
 
-sudo yarn docs:build 生成静态文件到 `./docs/.vuepress/dist/` 文件夹下
-
 ## 注意事项
-请勿随意更动项目根目录下的`static.json`文件。
-
-修改完后通过`sudo yarn docs:build`生成静态文件后再使用`git push`。
+请勿随意更动项目根目录下的`static.json`和`.travis.yml`文件。
 
 ## 其他
 
