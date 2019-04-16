@@ -8,7 +8,7 @@ node_js: stable
 branches:
 - master
 
-# tarvis生命周期
+# before_install
 before_install:
 - git config --global user.name "Jimmy0w0"
 - git config --global user.email "jimmy@jimmyowo.club"
@@ -22,13 +22,14 @@ before_install:
 install:
 - yarn
 
+# 脚本
 script:
 - yarn docs:build
 
-# 成功后
+# 成功
 after_success:
 - cd ./docs/.vuepress/dist
 - git init
 - git add --all
 - git commit -m 'CI Build'
-- git push --quiet --force https://$REPO_TOKEN@github.com/JimmyRice/rsshubdocs webpage
+- git push --force https://$REPO_TOKEN@github.com/JimmyRice/rsshubdocs_webpage master
