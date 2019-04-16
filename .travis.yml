@@ -32,4 +32,4 @@ after_success:
 - git init
 - git add --all
 - git commit -m 'CI Build'
-- git push --force https://2c3b989ce952e2954b2e6a2e1e7ce52082e731e1@git.dev.tencent.com/jimmyrice/rsshubdocs.git master
+- git push --force https://668c9a80dda3d3c7f8df39544fe22e9395288d09@github.com/JimmyRice/rsshubdocs_webpage master
