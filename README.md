@@ -2,6 +2,7 @@
 
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_shield)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2FJimmyRice%2Frsshubdocs?ref=badge_small)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c2a54160-6a7b-4007-b8e4-3442136c3a26/deploy-status)](https://app.netlify.com/sites/amazing-murdock-a9cad8/deploys)
 
 `2019/3/28`全面替换成yarn
 
