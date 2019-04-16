@@ -32,5 +32,5 @@ after_success:
 - git init
 - git add --all
 - git commit -m 'CI Build'
-- git remote add origin https://6161b471ee7f767e9030fb29b1cac59d8551958e@github.com/JimmyRice/rsshubdocs_webpage
-- git push origin master
+- git remote add origin https://5bcb563129cb882955dc877a2f92ce6e6514a69f@github.com/JimmyRice/rsshubdocs_webpage
+- git push --force origin master
