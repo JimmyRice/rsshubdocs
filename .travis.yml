@@ -32,4 +32,4 @@ after_success:
 - git init
 - git add --all
 - git commit -m 'CI Build'
-- git push --force https://$coding_token@git.dev.tencent.com/jimmyrice/rsshubdocs master
+- git push --force https://44e4625a4e3f00ff29284790e3b14c0e1b8f14dc@git.dev.tencent.com/jimmyrice/rsshubdocs master
