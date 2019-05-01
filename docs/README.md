@@ -1,7 +1,7 @@
 ---
 home: true
 
-heroImage: https://ws1.sinaimg.cn/large/006m0LdAly1g0ovdauc6jj30d20d2wgm.jpg
+heroImage: https://i.loli.net/2019/05/01/5cc9b3b7d7268.jpg
 
-footer: Copyright 2019 | Project RSSHub Docs | Powered By Netlify & RSSHub & VuePress
+footer: Copyright 2019 | Project RSSHub Docs | Powered By Netlify & RSSHub & VuePress & GitHub
 ---

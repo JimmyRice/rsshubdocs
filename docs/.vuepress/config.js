@@ -2,7 +2,7 @@ module.exports = {
     title: 'RSSHub',
     description: '万物皆可RSS',
     head: [
-        ['link', { rel: 'icon', href: 'https://ws1.sinaimg.cn/large/006m0LdAly1g0ovdauc6jj30d20d2wgm.jpg' }],
+        ['link', { rel: 'icon', href: 'https://i.loli.net/2019/05/01/5cc9b3b7d7268.jpg' }],
     ],
 
     themeConfig:{
